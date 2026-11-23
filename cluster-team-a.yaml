@@ -15,7 +15,6 @@ spec:
       replicas: 1
   sylvaUnitsReleasePresets:
   - default
-  - dev
   valuesFrom:
   - type: ExternalSecret
     name: sylva-secret
