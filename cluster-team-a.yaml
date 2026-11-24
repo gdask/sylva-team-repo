@@ -15,16 +15,16 @@ spec:
       replicas: 1
   sylvaUnitsReleasePresets:
   - default
-  valuesFrom:
-  - type: ExternalSecret
-    name: sylva-secret
-    valuesKey: secrets
-  - type: ConfigMap
-    name: test-cm
-    targetPath: security
-  - type: GitRepository
-    name: common
-    valuesPath: values
+  # valuesFrom:
+  # - type: ExternalSecret
+  #   name: sylva-secret
+  #   valuesKey: secrets
+  # - type: ConfigMap
+  #   name: test-cm
+  #   targetPath: security
+  # - type: GitRepository
+  #   name: common
+  #   valuesPath: values
   clusterSettings:
     capo:
       ssh_key_name: my_key
