@@ -28,7 +28,7 @@ spec:
   clusterSettings:
     capo:
       ssh_key_name: my_key
-      network_id: my_net
+      network_id: 76759c52-f180-4931-ade6-063bfb332006
       os_image_selector:
         os: ubuntu
         hardened: true
